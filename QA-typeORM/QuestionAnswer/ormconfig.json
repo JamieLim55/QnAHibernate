@@ -1,0 +1,23 @@
+{
+   "type": "mssql",
+   "host": "localhost",
+   "username": "Jamielim",
+   "password": "AAa1234567",
+   "database": "question_answer",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
